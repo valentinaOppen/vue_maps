@@ -1,6 +1,6 @@
 <template>
 <div>  
-  VO 
+  VO <font-awesome-icon icon="user" />
 </div>
   
 </template>
@@ -11,6 +11,10 @@ export default {
 }
 </script>
 
-<style>
+<style scroped>
+
+div {
+  color: white
+}
 
 </style>

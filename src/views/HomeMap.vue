@@ -7,8 +7,8 @@
 import { defineAsyncComponent } from '@vue/runtime-core'
 export default {
   components: { 
-    Header: defineAsyncComponent(() => import('./Header.vue')),
-    Footer: defineAsyncComponent(() => import('./Footer.vue'))
+    Header: defineAsyncComponent(() => import('../components/Header.vue')),
+    Footer: defineAsyncComponent(() => import('../components/Footer.vue'))
   }
 }
 </script>
